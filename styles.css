@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#E9EFF4 ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #94B2BC;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-container button {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #0056b3;
+}
+
+.image-container {
+    width: 200px; /* Ajuste a largura conforme necessário */
+    position: absolute;
+    left: 0;
+    top: 100px; /* Ajuste conforme o padding do header */
+    margin-left: 20px;
+}
+
+.image-container img {
+    width: 100%; /* Faz com que cada imagem preencha o container */
+    height: auto; /* Mantém a proporção das imagens */
+    margin-bottom: 10px; /* Espaço entre as imagens */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra para um visual mais destacado */
+}
+
+
